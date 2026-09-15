@@ -20,7 +20,7 @@ public class app {
         }
 
         
-        int winner = 0; //0=引き分けor継続,1=マルの勝ち,2=バツの勝ち
+        int winner = 0;
         for(int[] arr1 : arr) {
             if(arr1[0] == arr1[1] && arr1[1] == arr1[2] && arr1[0] != 0) {
                 winner = arr1[0];
